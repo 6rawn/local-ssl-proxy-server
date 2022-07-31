@@ -1,0 +1,23 @@
+{
+  "name": "local-ssl-proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "local-ssl-proxy --key localhost-key.pem --cert localhost.pem --source 443 --target 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6rawn/local-ssl-proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6rawn/local-ssl-proxy-server/issues"
+  },
+  "homepage": "https://github.com/6rawn/local-ssl-proxy-server#readme",
+  "dependencies": {
+    "local-ssl-proxy": "^1.3.0"
+  }
+}
